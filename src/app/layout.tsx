@@ -3,6 +3,7 @@ import { Marcellus } from "next/font/google";
 import Navbar from '@/app/components/Navbar'
 import "./globals.css";
 import { Providers } from "./providers";
+import { GoogleAnalytics } from '@next/third-parties/google'
 
 const marcellus = Marcellus({
   subsets: ["latin"],
@@ -25,6 +26,7 @@ export default function RootLayout({
   return (
     <html lang="pt-br" className="light">
       <body className={marcellus.variable}>
+        <GoogleAnalytics gaId="G-9RPBQFBMGJ" />
         <Providers>
           <div className="lg:mx-auto lg:max-w-[60rem] lg:shadow-[0_0_20px_10px_var(--gold)] min-h-screen">
             <Navbar />
