@@ -15,7 +15,6 @@ function Navbar() {
       { title: "Servicios", path: "/servicios"},
       { title: "Portfolio", path: "/portfolio"},
       { title: "Sobre Nós", path: "/sobre-nos"},
-      { title: "Contato", path: "/contato"},
     ];
 
     const closeNavbar = () => setIsMenuOpen(false);

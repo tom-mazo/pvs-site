@@ -28,9 +28,9 @@ export default function RootLayout({
     <html lang="pt-br" className="light">
       <body className={marcellus.variable}>
         <Providers>
-          <div className="lg:mx-auto lg:max-w-[60rem] lg:shadow-[0_0_20px_10px_var(--gold)]">
+          <div className="lg:mx-auto lg:max-w-[60rem] lg:shadow-[0_0_20px_10px_var(--gold)] min-h-screen">
             <Navbar />
-            <main className="text-foreground bg-background pl-4 pr-4 lg:pl-8 lg:pr-8 lg:pt-8">
+            <main className="text-foreground bg-background pl-4 pr-4 pt-4 lg:pl-8 lg:pr-8 lg:pt-8">
               {children}
             </main>
           </div>
