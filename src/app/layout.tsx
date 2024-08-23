@@ -1,8 +1,17 @@
 import type { Metadata } from "next";
-import { Inter } from "next/font/google";
+import { Inter, Marcellus } from "next/font/google";
+import Navbar from '@/app/components/Navbar'
 import "./globals.css";
+import styles from './styles.module.css';
+import {Providers} from "./providers";
 
-const inter = Inter({ subsets: ["latin"] });
+// const inter = Inter({ subsets: ["latin"] });
+const marcellus = Marcellus({
+  subsets: ["latin"],
+  weight: '400',
+  display: 'swap',
+  variable: '--font-marcellus'
+});
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -14,9 +23,20 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
-    <html lang="en">
-      <body className={inter.className}>{children}</body>
+    <html lang="pt-br" className="light">
+      <body className={marcellus.variable}>
+        <Providers>
+          <div className="lg:mx-auto lg:max-w-[60rem] lg:shadow-[0_0_20px_10px_var(--gold)]">
+            <Navbar />
+            <main className="text-foreground bg-background pl-4 pr-4 lg:pl-8 lg:pr-8 lg:pt-8">
+              {children}
+            </main>
+          </div>
+        </Providers>
+      </body>
     </html>
   );
 }
+

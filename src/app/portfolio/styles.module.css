@@ -1,0 +1,48 @@
+.container {
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+}
+
+.header {
+    font-size: 50px;
+    color: var(--gold);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: hidden;
+    gap: 10px;
+}
+
+
+.wrapper {
+    margin-bottom: 10px;
+  }
+
+.filter {
+    border-radius: 5%;
+    border: 1px var(--gold);
+    color: var(--gold);
+    padding: 5px;
+}
+
+.gallery-group {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 10px;
+}
+
+.image {
+    border-radius: 16px;
+    border: 3px var(--gold) solid;
+}
