@@ -37,6 +37,7 @@ const config: Config = {
         colors: {
           background: "#04223A",
           foreground: "#e0c99d",
+          primary: "#e6ac3c"
         }, // light theme colors
       },
     }

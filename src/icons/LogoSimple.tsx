@@ -1,6 +1,6 @@
 export default function () {
     return (
-        <svg xmlns="http://www.w3.org/2000/svg" zoomAndPan="magnify" height="50" width="50"
+        <svg xmlns="http://www.w3.org/2000/svg" zoomAndPan="magnify" height="65" width="65"
             viewBox="0 0 375 374.999991" preserveAspectRatio="xMidYMid meet" version="1.0">
             <defs>
                 <g />
