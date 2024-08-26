@@ -1,4 +1,3 @@
-import styles from './styles.module.css';
 import data from './data';
 
 function Card({ item }: { item: { Icon: ({ color }: { color?: string; }) => JSX.Element, title: string; description: string;}}) {

@@ -1,22 +1,10 @@
 import Image from "next/image";
 import services from '@/app/servicios/data'
-import styles from './styles.module.css';
-import {Button} from "@nextui-org/react";
 import Logo from '@/app/assets/Logo';
 import ArrowRight from '@/app/assets/ArrowRight';
 import { Link } from "@nextui-org/react";
 import { portfolioData } from "./data";
 
-
-
-function Service({ item }: { item: { Icon: ({ color }: { color?: string; }) => JSX.Element, shortTitle: string; description: string;}}) {
-  return (
-      <div className={styles.card}>
-          <div className={styles.icon}><item.Icon color={"#04223A"}/></div>
-          <div className={styles.title}>{item.shortTitle}</div>
-      </div>
-  )
-}
 
 export default function Home() {
   return (
