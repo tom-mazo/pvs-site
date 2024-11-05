@@ -15,6 +15,17 @@ const marcellus = Marcellus({
 export const metadata: Metadata = {
   title: "PVS Empreendimentos",
   description: "PVS Empreendimentos",
+  icons: {
+    icon: [
+      { url: '/favicon-16x16.png', sizes: '16x16' },
+      { url: '/favicon-32x32.png', sizes: '32x32' },
+
+    ],
+    shortcut: ['/favicon.ico'],
+    apple: [
+      { url: '/apple-touch-icon.png' },
+    ],
+  },
 };
 
 export default function RootLayout({
@@ -39,4 +50,3 @@ export default function RootLayout({
     </html>
   );
 }
-
