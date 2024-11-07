@@ -1,8 +1,6 @@
-import paulo from './assets/paulo-vinicius.jpg'
-import tom from './assets/tom-mazo-gasparini.jpg'
-import leo from './assets/leonardo-gabriel-gasparini.jpg'
-
-
+import paulo from '@/assets/images/avatar_paulo.jpg'
+import tom from '@/assets/images/avatar_tom.jpg'
+import leo from '@/assets/images/avatar_leonardo.jpg'
 
 export default {
     people: [

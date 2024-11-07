@@ -1,7 +1,7 @@
 import Image from "next/image";
 import services from '@/app/servicios/data'
-import Logo from '@/icons/Logo';
-import ArrowRight from '@/icons/ArrowRight';
+import Logo from '@/assets/icons/Logo';
+import ArrowRight from '@/assets/icons/ArrowRight';
 import { Link } from "@nextui-org/react";
 import { portfolioData, socialMediaIcons } from "./data";
 
