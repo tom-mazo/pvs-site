@@ -1,7 +1,7 @@
-import AssessoriaIcon from '@/icons/Assessoria';
-import ObraIcon from '@/icons/Obra';
-import PiscinaIcon from '@/icons/Piscina';
-import ProjetoIcon from '@/icons/Projeto';
+import AssessoriaIcon from '@/assets/icons/Assessoria';
+import ObraIcon from '@/assets/icons/Obra';
+import PiscinaIcon from '@/assets/icons/Piscina';
+import ProjetoIcon from '@/assets/icons/Projeto';
 
 export default [
     {

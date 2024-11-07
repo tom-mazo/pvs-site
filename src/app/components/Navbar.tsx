@@ -4,7 +4,7 @@ import { useState } from 'react';
 import {Navbar as NextUINavbar, NavbarContent, NavbarItem, NavbarMenuToggle, NavbarMenu, NavbarMenuItem} from "@nextui-org/react";
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import Logo from '@/icons/LogoSimple'
+import Logo from '@/assets/icons/LogoSimple'
 
 
 function Navbar() {
