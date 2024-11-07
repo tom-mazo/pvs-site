@@ -1,6 +1,6 @@
-import paulo from '@/assets/images/paulo-vinicius.jpg'
-import tom from '@/assets/images/tom-mazo-gasparini.jpg'
-import leo from '@/assets/images/leonardo-gabriel-gasparini.jpg'
+import paulo from '@/assets/images/avatar_paulo.jpg'
+import tom from '@/assets/images/avatar_tom.jpg'
+import leo from '@/assets/images/avatar_leonardo.jpg'
 
 const introduction = [
     "Há mais de 10 anos, a PVS atua na construção civil nas regiões de Sorocaba e Itu, entregando projetos de médio e alto padrão com sofisticação e qualidade. Com uma base sólida no mercado, nossa empresa é reconhecida pela excelência em cada detalhe, da fundação ao acabamento.",

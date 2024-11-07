@@ -1,5 +1,6 @@
 import Logo from '@/assets/icons/Logo';
 import services from '@/data/servicios'
+import Image from "next/image";
 import ArrowRight from '@/assets/icons/ArrowRight';
 import { Link } from "@nextui-org/react";
 import { portfolioData, socialMediaIcons } from "./data";

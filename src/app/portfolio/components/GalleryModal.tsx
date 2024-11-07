@@ -2,8 +2,7 @@
 import { Modal, ModalContent, ModalBody } from "@nextui-org/react";
 import Image from 'next/image'
 
-
-export default function ({ photo, onClose }: Props) {
+function GaleryModal({ photo, onClose }: Props) {
     return (
         <Modal isOpen={!!photo} onOpenChange={onClose} placement='center'>
             <ModalContent>
@@ -27,3 +26,5 @@ type Props = {
     photo: string,
     onClose: () => void
 }
+
+export default GaleryModal

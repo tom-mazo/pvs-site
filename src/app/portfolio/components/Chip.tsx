@@ -1,19 +1,21 @@
 import { Tab } from "../types";
-import { Chip } from "@nextui-org/react";
+import { Chip as NextUIChip } from "@nextui-org/react";
 
 
-export default function({ isTabSelected, chipData, onSelect, onClose }: Props) {
+function Chip({ isTabSelected, chipData, onSelect, onClose }: Props) {
     return (
-        <Chip
+        <NextUIChip
             size='lg'
             color='primary'
             variant="bordered"
             className={isTabSelected ? undefined : 'hover:bg-primary hover:text-background cursor-pointer'}
             onClick={isTabSelected ? undefined: () => onSelect(chipData)}
             onClose={isTabSelected ? onClose : undefined }
-        >{chipData.label}</Chip>
+        >{chipData.label}</NextUIChip>
     );
 }
+
+export default Chip;
 
 type Props = {
     isTabSelected: boolean,
