@@ -1,4 +1,4 @@
-export default function({ color = "#e0c99d" }: { color?: string }) {
+function Assessoria({ color = "#e0c99d" }: { color?: string }) {
     return (
         <svg xmlns="http://www.w3.org/2000/svg" zoomAndPan="magnify"
             viewBox="0 0 375 375" preserveAspectRatio="xMidYMid meet" version="1.0" fill={color}>
@@ -26,3 +26,5 @@ export default function({ color = "#e0c99d" }: { color?: string }) {
         </svg>
     )
 }
+
+export default Assessoria;

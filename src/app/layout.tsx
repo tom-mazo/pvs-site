@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Marcellus } from "next/font/google";
-import Navbar from '@/app/components/Navbar'
+import Navbar from '@/app/_components/Navbar'
 import "./globals.css";
 import Providers from "./providers"
 

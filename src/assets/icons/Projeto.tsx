@@ -1,4 +1,4 @@
-export default function({ color = "#e0c99d" }: { color?: string }) {
+function Projeto({ color = "#e0c99d" }: { color?: string }) {
     return (<svg xmlns="http://www.w3.org/2000/svg" zoomAndPan="magnify"
     viewBox="0 0 375 374.999991" preserveAspectRatio="xMidYMid meet" version="1.0" fill={color}>
     <defs>
@@ -33,3 +33,5 @@ export default function({ color = "#e0c99d" }: { color?: string }) {
         d="M 294.515625 138.710938 L 291.320312 150.046875 L 319.488281 153.535156 L 316.003906 141.328125 Z M 294.515625 138.710938 "
         fillOpacity="1" fillRule="nonzero" />
 </svg>)}
+
+export default Projeto;

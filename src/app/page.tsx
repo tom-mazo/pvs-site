@@ -1,5 +1,5 @@
 import Logo from '@/assets/icons/Logo';
-import services from '@/app/servicios/data'
+import services from '@/data/servicios'
 import ArrowRight from '@/assets/icons/ArrowRight';
 import { Link } from "@nextui-org/react";
 import { socialMediaIcons } from "./data";

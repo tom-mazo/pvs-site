@@ -1,9 +1,9 @@
-import AssessoriaIcon from '@/icons/Assessoria';
-import ObraIcon from '@/icons/Obra';
-import PiscinaIcon from '@/icons/Piscina';
-import ProjetoIcon from '@/icons/Projeto';
+import AssessoriaIcon from '@/assets/icons/Assessoria';
+import ObraIcon from '@/assets/icons/Obra';
+import PiscinaIcon from '@/assets/icons/Piscina';
+import ProjetoIcon from '@/assets/icons/Projeto';
 
-export default [
+const data = [
     {
         title: 'Assesoria de Projetos',
         shortTitle: 'Assesoria',
@@ -28,4 +28,6 @@ export default [
         Icon: PiscinaIcon,
         description: 'Desenvolvemos e construímos piscinas personalizadas com as últimas tendências de materiais e projetamos áreas de lazer integradas, utilizando os conceitos mais modernos em design de áreas externas.'
     }
-]
+];
+
+export default data;

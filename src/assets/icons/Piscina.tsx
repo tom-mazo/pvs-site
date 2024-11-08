@@ -1,4 +1,4 @@
-export default function({ color = "#e0c99d" }: { color?: string }) {
+function Piscina({ color = "#e0c99d" }: { color?: string }) {
     return (<svg xmlns="http://www.w3.org/2000/svg" zoomAndPan="magnify"
     viewBox="0 0 375 374.999991" preserveAspectRatio="xMidYMid meet" version="1.0" fill={color}>
     <defs>
@@ -12,3 +12,6 @@ export default function({ color = "#e0c99d" }: { color?: string }) {
             fillOpacity="1" fillRule="nonzero" />
     </g>
 </svg>)}
+
+
+export default Piscina;
