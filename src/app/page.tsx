@@ -78,6 +78,30 @@ export default function Home() {
 
       </section>
 
+      <div className="mb-10 mt-10 rounded-lg bg-primary h-[1px] w-52 mx-auto md:bg-pvs-indigo lg:hidden"></div>
+
+
+      <section className="pb-4">
+        <h2 className="text-pvs-gold text-4xl font-serif mb-6">Contato</h2>
+
+            <div className="flex flex-col md:flex-row md:flex-nowrap">
+
+              <div className="mb-3 md:flex-grow">
+                <a href="mailto:paulovinicius@pvsconstrutora.com.br"><div className="text-lg mb-2 flex"><span className="text-pvs-gold font-serif w-28">Email </span>paulovinicius@pvsconstrutora.com.br</div></a>
+                <a href="tel:+5515974019088"><div className="text-lg mb-2 flex"><span className="text-pvs-gold font-serif w-28">Telefone </span> 15 97401-9088</div></a>
+                <a href="https://wa.me/5515974019088"><div className="text-lg mb-2 flex"><span className="text-pvs-gold font-serif w-28">Whatsapp </span> 15 97401-9088</div></a>
+              </div>
+
+              <div className="mb-3 md:flex-grow">
+                <div className="text-pvs-gold text-lg font-serif mb-2">Sorocaba - SP</div>
+                <div className="mb-2 text-md">Av. Professora Izoraida Marques Peres, 288<br/>Sala 42 - Pq. Campolim - Sorocaba - SP</div>
+                <div className="text-pvs-gold text-lg font-serif mb-2">Itaí / Paranapanema - SP</div>
+                <div className="mb-2 text-md">Abrindo em breve...</div>
+              </div>
+            </div>
+
+      </section>
+
     </div>
   );
 }
