@@ -2,7 +2,7 @@ import Logo from '@/assets/icons/Logo';
 import services from '@/data/servicios'
 import ArrowRight from '@/assets/icons/ArrowRight';
 import { Link } from "@nextui-org/react";
-import { socialMediaIcons } from "./data";
+import { portfolioData, socialMediaIcons } from "./data";
 
 
 export default function Home() {
@@ -53,6 +53,29 @@ export default function Home() {
           <span className="inline-block mr-2 font-serif text-2xl">{'Veja mais'}</span>
           <ArrowRight className="size-6" />
         </Link>
+      </section>
+
+      <div className="mb-10 mt-10 rounded-lg bg-primary h-[1px] mx-auto w-1/3"></div>
+
+      <section className="mb-10">
+        <h2 className="text-pvs-gold text-4xl font-serif mb-6">Portfolio</h2>
+        <p className="text-lg max-w-xl mb-4">{'Conheça um pouco mais da nossa empresa em nossa galeria.'}</p>
+        <div className="pl-2 flex flex-row flex-nowrap overflow-x-scroll mb-4 gap-8 lg:justify-around -mr-4">
+          {portfolioData.map(item => (
+            <div className="flex flex-row justify-center items-stretch lg:flex-col cursor-pointer hover:scale-105 focus-within:scale-105 mb-2 mt-2" key={item.title}>
+              <div className="size-32 lg:size-52">
+                <Image src={item.thumb} alt={item.title} />
+              </div>
+              <div className="bg-pvs-gold text-pvs-indigo flex justify-center items-center p-4 uppercase font-semibold">{item.title}</div>
+          </div>
+          ))}
+        </div>
+
+        <Link href="/portfolio" className="text-pvs-gold  hover:opacity-100 hover:underline hover:underline-offset-8">
+          <span className="inline-block mr-2 font-serif text-2xl">{'Veja mais'}</span>
+          <ArrowRight className="size-6" />
+        </Link>
+
       </section>
 
     </div>
